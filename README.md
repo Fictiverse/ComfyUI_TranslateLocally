@@ -104,7 +104,9 @@ This repository contains two nodes for **ComfyUI** to enable offline translation
 - Only tested on **Windows**, as it requires the `translateLocally.exe` binary.  
 - Make sure `translateLocally.exe` is in the same folder as this node (`ComfyUI_TranslateLocally`).  
 - Models are downloaded (once and only when it is missing) and reused automatically.  
-
+- Install only if you trust this repo : https://github.com/XapaJIaMnu/translateLocally
+- My repo is just a wrapper, i am not the author of this tool.   
+  
 ---
 
 ## References
