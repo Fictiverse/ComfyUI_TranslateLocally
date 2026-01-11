@@ -9,7 +9,7 @@ This repository contains two nodes for **ComfyUI** to enable offline translation
 
 ## Installation
 
-1. **Download translateLocally.exe**       
+1. **Download translateLocally.exe CLI**       
 
    Go to the latest release page:  
    [https://github.com/XapaJIaMnu/translateLocally/releases/tag/latest](https://github.com/XapaJIaMnu/translateLocally/releases/tag/latest)  
