@@ -25,6 +25,9 @@ class TranslateLocallyNode:
         return None
 
     def translate(self, text, model):
+        if not text or not text.strip():
+            return ("",)
+
         binary_path = self.find_binary()
         if not binary_path or not os.path.isfile(binary_path):
             return (f"ERROR: translateLocally.exe not found. Checked path: {binary_path}",)
@@ -44,6 +47,7 @@ class TranslateLocallyNode:
             return (output,)
         except Exception as e:
             return (f"ERROR: Python exception: {e}",)
+
 
 
 class SelectOrDownloadTranslateModelNode:
